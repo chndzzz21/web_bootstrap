@@ -1,0 +1,26 @@
+/* Mobile menu default: hidden */
+.main-nav {
+  display: none;
+}
+
+/* Tampilkan menu saat toggle aktif */
+.main-nav.active {
+  display: block;
+}
+
+/* Media query untuk layar besar (desktop) */
+@media screen and (min-width: 768px) {
+  .main-nav {
+    display: block !important;
+  }
+
+  .menu-link {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
